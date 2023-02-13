@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ConsumerTest::it_does_things_maybe":5,"ConsumerTest::it_retrieves_cat_facts":8},"times":{"ConsumerTest::it_does_things_maybe":0.604,"ConsumerTest::it_retrieves_cat_facts":0.524}}

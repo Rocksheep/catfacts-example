@@ -1,0 +1,27 @@
+{
+    "name": "rocksheep/cat_facts",
+    "require": {
+        "psr/http-client-implementation": "*",
+        "php-http/discovery": "^1.15"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.5",
+        "phpunit/phpunit": "^10.0",
+        "php-http/curl-client": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rocksheep\\CatFacts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RockSheep"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
